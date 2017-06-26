@@ -1,8 +1,4 @@
 /* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -10,6 +6,7 @@ body {
 .footer {
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 20px;
 }
 
 /* Custom page header */
@@ -76,4 +73,23 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.tiles-header {
+  background: url(./bg-tiles.jpg);
+  background-position: top left;
+  background-size: 300px;
+
+  padding-top: 20px;
+}
+.tiles-header a,
+.tiles-header h1,
+.tiles-header h2,
+.tiles-header h3 {
+  color: white;
+}
+.tiles-header a:hover,
+.tiles-header a:focus,
+.tiles-header a:active {
+  background-color: transparent !important;
 }
